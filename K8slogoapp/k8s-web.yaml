@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: k8s-counter
-        image: wallnerryan/moby-counter:k8s-record-count
+        image: wallnerryan/moby-counter:v1.15
         imagePullPolicy: Always
         ports:
         - containerPort: 80
